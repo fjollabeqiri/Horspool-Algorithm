@@ -259,3 +259,13 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/CountNumberOfWays
+/Fibonacci
+/SpaceForTimeAlgorithms
+/2DSortedArraySearch
+/2DSortedArraySearch(2ndMethod)
+/AStarAlgorithm-Robot
+/BinaryTrees
+/HorspoolAlgorithm.sln
+/HorspoolAlgorithm.csproj
+/AdvancedAlgorithms.sln

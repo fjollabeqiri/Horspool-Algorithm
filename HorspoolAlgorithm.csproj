@@ -1,0 +1,168 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{15E5C07D-EB3B-4148-8D71-516E3B0C1FE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>HorspoolAlgorithm</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="StringSearch\bin\Debug\StringSearch.exe" />
+    <Content Include="StringSearch\bin\Debug\StringSearch.pdb" />
+    <Content Include="StringSearch\obj\Debug\StringSearch.csproj.FileListAbsolute.txt" />
+    <Content Include="StringSearch\obj\Debug\StringSearch.exe" />
+    <Content Include="StringSearch\obj\Debug\StringSearch.pdb" />
+    <Content Include="StringSearch\StringSearch.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\03\1341dbe6b50bdf146d81f4de4600c8c1692f69" />
+    <None Include=".git\objects\08\77624ae4204bec0ba98fcef3dd9588ebef641f" />
+    <None Include=".git\objects\0a\54335f6f15710926cf3dbfd6dfeac93fbaea83" />
+    <None Include=".git\objects\10\19a9184d5facedca754079674af949716d81ed" />
+    <None Include=".git\objects\1d\3a3dbd779291df3ace9d20cbb36efe1231fd2b" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\20\1724ecc9fce5848af386147ff88f987cb20205" />
+    <None Include=".git\objects\34\e08d9bd499c5022a4c7be1c97c8d352bbd7ebf" />
+    <None Include=".git\objects\3b\b5dcba1f6f262b7bad0fffe92b38ec18b061ef" />
+    <None Include=".git\objects\3b\f4675592b8e0dc8088836e882eb86847f86f50" />
+    <None Include=".git\objects\3c\4efe206bd0e7230ad0ae8396a3c883c8207906" />
+    <None Include=".git\objects\45\b2bbf7c64a8caa1b3abe9bde8a07cb96f0a9c0" />
+    <None Include=".git\objects\48\63ddbca75eee05d8c07c8d1c47e63537606814" />
+    <None Include=".git\objects\49\ad5cf3766cf79e719e5fa32258cd1191c7fdfe" />
+    <None Include=".git\objects\53\51549af6d549b91149e32d8ad230e68fba429b" />
+    <None Include=".git\objects\5f\4297ae5262a71cd4c265b7245a90b81c2a3557" />
+    <None Include=".git\objects\60\6a56752cd5323cec04f802113887df10a4bedd" />
+    <None Include=".git\objects\6f\b0f72626d3a95bb5997d163fde73cd118e7b13" />
+    <None Include=".git\objects\71\96771439a0bcea93cf77c1423ecc37e17f8abc" />
+    <None Include=".git\objects\73\1f6de6c291e303814b02808f34140fe560e8e4" />
+    <None Include=".git\objects\75\abdb3cdcbb2abe4c2146ce7076fa353563d733" />
+    <None Include=".git\objects\7a\d117f9e3420b3e1d3f3d1a82998f51436c8f49" />
+    <None Include=".git\objects\89\2eb2b8d5d35c49f55059c876faf05cf77d2c70" />
+    <None Include=".git\objects\91\e3470e1645e6e8d0de6fe9f6b242f366e9a393" />
+    <None Include=".git\objects\9b\d7833facce51e7fb49140319ce55badd8a90bd" />
+    <None Include=".git\objects\9f\994e0730de2fd54438c72f52ccada15237dcc5" />
+    <None Include=".git\objects\a1\6568a6a42a9406d64a919a771ca770a208446f" />
+    <None Include=".git\objects\a2\7df2ad7cffc0008663c9ceccc55e4dae262d97" />
+    <None Include=".git\objects\a3\8f8a37da858b0e7a4a577210e923c883ac97f3" />
+    <None Include=".git\objects\a3\cec3785707fd87a88cfb69bc4b05a9eda29263" />
+    <None Include=".git\objects\ad\2c2b13cb3a593a0a549f3d4130994228132fcd" />
+    <None Include=".git\objects\b6\393ef5808ffc3ed2c961501b0be71f1621f408" />
+    <None Include=".git\objects\b8\26099374510cf094372111fcb599a1c579e30d" />
+    <None Include=".git\objects\ba\4f2a2322264c764c3ea279c839b516a55f5473" />
+    <None Include=".git\objects\d0\811bc7ec0142a2159d88ea22784ae72c8b42f2" />
+    <None Include=".git\objects\d8\7432d37058f4909a1979f297c238023153b462" />
+    <None Include=".git\objects\e0\a82fbc28aa4686a65c382b0b62b3d3f5c9a24b" />
+    <None Include=".git\objects\e5\c0357151516e2325989e773fd79435613fce37" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\ea\0f55e505671f360de3124e655efdcec0b64889" />
+    <None Include=".git\objects\ee\d37d5c1ec3d4de42c4e2fd7763e11ddbd8da75" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".vs\AdvancedAlgorithms\v15\.suo" />
+    <None Include=".vs\AdvancedAlgorithms\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\AdvancedAlgorithms\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\AdvancedAlgorithms\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include=".vs\AdvancedAlgorithms\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="StringSearch\App.config" />
+    <None Include="StringSearch\bin\Debug\StringSearch.exe.config" />
+    <None Include="StringSearch\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="StringSearch\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="StringSearch\obj\Debug\StringSearch.csproj.CoreCompileInputs.cache" />
+    <None Include="StringSearch\obj\Debug\StringSearch.csproj.GenerateResource.cache" />
+    <None Include="StringSearch\obj\Debug\StringSearch.csprojAssemblyReference.cache" />
+    <None Include="StringSearch\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="StringSearch\Form1.cs" />
+    <Compile Include="StringSearch\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringSearch\HorspoolAlgorithm.cs" />
+    <Compile Include="StringSearch\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="StringSearch\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="StringSearch\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="StringSearch\Program.cs" />
+    <Compile Include="StringSearch\Properties\AssemblyInfo.cs" />
+    <Compile Include="StringSearch\Properties\Resources.Designer.cs" />
+    <Compile Include="StringSearch\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StringSearch\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringSearch\obj\Debug\StringSearch.Form1.resources" />
+    <EmbeddedResource Include="StringSearch\obj\Debug\StringSearch.Properties.Resources.resources" />
+    <EmbeddedResource Include="StringSearch\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\Divide_and_Conquer\v15\Server\sqlite3\" />
+    <Folder Include=".vs\HorspoolAlgorithm\v15\" />
+    <Folder Include="StringSearch\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

@@ -51,7 +51,6 @@
     <Content Include="StringSearch\obj\Debug\StringSearch.csproj.FileListAbsolute.txt" />
     <Content Include="StringSearch\obj\Debug\StringSearch.exe" />
     <Content Include="StringSearch\obj\Debug\StringSearch.pdb" />
-    <Content Include="StringSearch\StringSearch.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".git\COMMIT_EDITMSG" />

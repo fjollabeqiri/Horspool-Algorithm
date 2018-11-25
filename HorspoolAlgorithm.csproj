@@ -132,7 +132,9 @@
     <None Include="StringSearch\Properties\Settings.settings" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StringSearch\Form1.cs" />
+    <Compile Include="StringSearch\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="StringSearch\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
